@@ -1,0 +1,274 @@
+*, *::after, *::before { padding: 0;
+    margin:0;
+    box-sizing:border-box }
+
+.header{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 130px;
+    padding: 2%;
+    font-family: Montserrat, Regular, monospace;
+    background: #5ED993;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: -webkit-linear-gradient(135deg, rgb(94, 217, 147) 10%, rgb(63, 231, 201));
+    background: -moz-linear-gradient(135deg, rgb(94, 217, 147) 10%, rgb(63, 231, 201));
+    background: linear-gradient(135deg, rgb(94, 217, 147) 10%, rgb(63, 231, 201));
+
+    -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.54);
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.54);
+}
+.group{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-shadow: -3px 2px 7px rgba(0, 0, 0, 0.28);
+    -moz-text-shadow: -3px 2px 7px rgba(0, 0, 0, 0.28);
+    text-shadow: -3px 2px 7px rgba(0, 0, 0, 0.28);
+}
+
+.menu{
+    border-radius: 20px;
+}
+.main{
+
+}
+.qwerty{
+    width: 100px;
+    white-space: normal;
+    font-weight: 900;
+    font-family: Montserrat, Regular, sans-serif;
+    font-size: 250%; /* Размер шрифта в процентах */
+
+}
+
+/*-------------------------------расписание----------------------------------------------------------*/
+.day{
+    -webkit-box-shadow: 3px 1px 7px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 3px 1px 7px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 3px 1px 7px 2px rgba(34, 60, 80, 0.2);
+
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+
+
+    top: 50%;
+    left: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    max-width: 1100px;
+    justify-content: center;
+    align-content: center;
+
+    background-color: rgba(135,147,154,0.18);
+
+}
+.date_rasp{
+    font-family: Montserrat, Regular, monospace;
+    margin: 10px 0 0 55px;
+    font-size: 45px;
+}
+.container{
+    margin: 20px 20px 20px 20px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.date_container{
+    /*background-color: burlywood;*/
+    position: center;
+    margin: 0 25px 0 25px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /*background-color: burlywood;*/
+    height: auto;
+    width: 150px;
+    font-family: Montserrat, Regular, monospace;
+    font-size: 45px;
+    text-align: center;
+}
+.date_container_number{
+    padding-bottom: 35px;
+    font-size: 70px;
+}
+/*-----------------------изменение цвета svg картинок-------------------------------------*/
+.svg_settings {
+    stroke: #ffffff;
+    position: center;
+    height:100px;
+    width:100px;
+}
+.svg_tab {
+    stroke: #ffffff;
+    fill: #ffffff;
+    position: center;
+    height:100px;
+    width:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------посветка при наведении на значки-----------------------*/
+.settings:hover{
+    stroke: #E9E9E9 ;
+    fill: #E9E9E9;
+    transition-duration: 0.5s;
+}
+.settings svg:hover{
+    stroke: #E9E9E9 ;
+    fill: #E9E9E9;
+    transition-duration: 0.5s;
+}
+.menu:hover{
+    stroke: #E9E9E9 ;
+    fill: #E9E9E9;
+    transition-duration: 0.5s;
+}
+.menu svg:hover{
+    stroke: #E9E9E9 ;
+    fill: #E9E9E9;
+    transition-duration: 0.5s;
+}
+
+.info_container{
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    height: 292px;
+    width: 100%;
+    /*background-color: chocolate;*/
+    font-size: 40px;
+    font-family: Montserrat, Regular, monospace;
+    /*display: flex;*/
+    flex-wrap: wrap;
+    position: center;
+}
+.info_container_options{
+    padding: 10px 30px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.info_container_lesson{
+    padding-top: 8px;
+    font-family: Montserrat, Regular, monospace;
+    font-size: 45px;
+    margin-bottom: 10px;
+
+}
+.info_container_teacher{
+    padding-top: 5px;
+
+    font-family: Montserrat, Regular, monospace;
+    font-size: 35px;
+}
+.info_container_teacher link:hover{
+    color: #5ED993;
+}
+
+
+
+
+.info_container_options_cabinet{
+    font-family: Montserrat, Regular, monospace;
+    font-size: 45px;
+
+}
+.info_container_options_type{
+    font-family: Montserrat, Regular, monospace;
+    font-size: 35px;
+    margin-top: auto;
+}
+
+
+.element {
+
+}
+main{
+    color: #707070;
+}
+/*__FOOTER_______________________________________________________________________*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 2%;
+    position: sticky;
+    -webkit-text-shadow: -3px 2px 7px rgba(0, 0, 0, 0.28);
+    -moz-text-shadow: -3px 2px 7px rgba(0, 0, 0, 0.28);
+    text-shadow: -3px 2px 7px rgba(0, 0, 0, 0.28);
+
+}
+.footer_block{
+    position: relative;
+    text-align: center;
+    font-family: Montserrat, Regular, monospace;
+    color: white;
+    background: -webkit-linear-gradient(135deg, rgb(94, 217, 147) 10%, rgb(63, 231, 201));
+    background: -moz-linear-gradient(135deg, rgb(94, 217, 147) 10%, rgb(63, 231, 201));
+    background: linear-gradient(135deg, rgb(94, 217, 147) 10%, rgb(63, 231, 201));
+    border-radius: 62px;
+    width: 600px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 30px;
+}
+
+.footer_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: Montserrat, Regular, monospace;
+    font-size: 30px;
+}
+
+.week_number{
+
+}
+
+.period{
+
+}
+
+.footer_block_arrow{
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+/*___________________________________________________________________________________________*/
+main, body{
+    min-width: 1100px;
+    width: 100%;
+}
+main{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column
+}
+body{
+    background-color: #E9E9E9;
+}

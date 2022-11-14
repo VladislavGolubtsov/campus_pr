@@ -1,0 +1,70 @@
+*, *::after, *::before {
+    padding: 0;
+    margin:0;
+    border: 0;
+    box-sizing:border-box
+}
+
+.tab{
+    display: flex;
+    flex-direction: initial;
+}
+.options{
+    margin-top: 50px;
+}
+.header{
+    padding: 15px 0 15px 0;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.groups_options{
+    display: flex;
+    flex-direction: column;
+    margin-left: 106px;
+
+}
+.groups_options input{
+    vertical-align: middle;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+
+}
+.groups_options label{
+    padding-top: 40px;
+    vertical-align: bottom;
+    margin:-2px 0 0 0;
+}
+.tab_items{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tabs_item{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #707070;
+}
+
+.tabs_block{
+    display: none;
+
+}
+tabs_block:target{
+    display: block;
+    padding: 50%;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+
